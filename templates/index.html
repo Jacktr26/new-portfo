@@ -1,0 +1,171 @@
+<!DOCTYPE HTML>
+<!--
+    Spectral by HTML5 UP - Customized for Jack Tracy
+-->
+<html>
+  <head>
+    <title>Jack Tracy | Programmer & Web Designer</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/main.css') }}" />
+    <noscript><link rel="stylesheet" href="{{ url_for('static', filename='assets/css/noscript.css') }}" /></noscript>
+  </head>
+  <body class="landing is-preload">
+
+    <!-- Page Wrapper -->
+    <div id="page-wrapper">
+
+      <!-- Header -->
+      <header id="header" class="alt">
+        <h1><a href="index.html">Jack Tracy</a></h1>
+        <nav id="nav">
+          <ul>
+            <li class="special">
+              <a href="#menu" class="menuToggle"><span>Menu</span></a>
+              <div id="menu">
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="#projects">Projects</a></li>
+                  <li><a href="#skills">Skills</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Banner -->
+      <section id="banner">
+        <div class="inner">
+          <h2>Hi, I'm Jack Tracy</h2>
+          <p>A programmer skilled in HTML, CSS, JavaScript, and Python.<br />
+            I've done work in Machine Learning and I'm currently focused on Web Design.</p>
+          <ul class="actions special">
+            <li><a href="#projects" class="button primary">View My Work</a></li>
+          </ul>
+        </div>
+        <a href="#one" class="more scrolly">Learn More</a>
+      </section>
+
+      <!-- One -->
+      <section id="one" class="wrapper style1 special">
+        <div class="inner">
+          <header class="major">
+            <h2>About Me</h2>
+            <p>I'm a passionate developer who loves building modern, responsive websites and exploring intelligent systems through Machine Learning. Below you’ll find some of my recent projects and the skills I bring to the table.</p>
+          </header>
+          <ul class="icons major">
+            <li><span class="icon solid fa-code major style1"><span class="label">Code</span></span></li>
+            <li><span class="icon solid fa-brain major style2"><span class="label">ML</span></span></li>
+            <li><span class="icon solid fa-laptop major style3"><span class="label">Web Design</span></span></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Two -->
+      <section id="projects" class="wrapper alt style2">
+        <section class="spotlight">
+          <div class="image">
+            <img src="{{ url_for('static', filename='images/arnolds.png') }}" alt="Arnold Brothers Website" class="project-image" />
+          </div>
+          <div class="content">
+            <h2>Arnold Brothers Guitar</h2>
+            <p>A custom-built website for my indie rock guitar duo, showcasing our gigs, booking system, and calendar availability.</p>
+            <a href="https://arnold-brothers-web.onrender.com" class="button" target="_blank">View Project</a>
+          </div>
+        </section>
+
+        <section class="spotlight">
+          <div class="image">
+            <img src="{{ url_for('static', filename='images/heart.png') }}" alt="Heart Disease ML Project" class="project-image" />
+          </div>
+          <div class="content">
+            <h2>Heart Disease Classification</h2>
+            <p>A machine learning project using scikit-learn to predict the presence of heart disease based on patient data.</p>
+            <a href="https://github.com/Jacktr26/heart-disease-project" class="button" target="_blank">View Project</a>
+          </div>
+        </section>
+
+        <section class="spotlight">
+          <div class="image">
+            <img src="{{ url_for('static', filename='images/pong.png') }}" alt="Pong Game" class="project-image" />
+          </div>
+          <div class="content">
+            <h2>Classic Pong Game</h2>
+            <p>A retro-style Pong game built with Python and Pygame, complete with basic AI and player controls.</p>
+            <a href="https://github.com/Jacktr26/Pong" class="button" target="_blank">View Project</a>
+          </div>
+        </section>
+      </section>
+
+
+
+      <!-- Three -->
+      <section id="skills" class="wrapper style3 special">
+        <div class="inner">
+          <header class="major">
+            <h2>My Skills</h2>
+            <p>Here’s what I work with the most:</p>
+          </header>
+          <ul class="features">
+            <li class="icon solid fa-code">
+              <h3>Web Development</h3>
+              <<p>I build multi-page websites using HTML, CSS, and JavaScript, with Flask handling the backend and I host my web apps using Render.</p>
+            </li>
+            <li class="icon solid fa-python">
+              <h3>Python</h3>
+              <p>General scripting, backend tasks, and ML pipelines</p>
+            </li>
+            <li class="icon solid fa-brain">
+              <h3>Machine Learning</h3>
+              <p>Experience with models and data-driven solutions</p>
+            </li>
+            <li class="icon solid fa-pencil-ruler">
+              <h3>Web Design</h3>
+              <p>Modern, responsive and user-friendly interfaces</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section id="cta" class="wrapper style4">
+        <div class="inner">
+          <header>
+            <h2>Want to work together?</h2>
+            <p>Feel free to reach out if you’d like to collaborate or learn more about what I do.</p>
+          </header>
+          <ul class="actions stacked">
+            <li><a href="#contact" class="button fit primary">Contact Me</a></li>
+            <li><a href="#projects" class="button fit">See My Projects</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <ul class="icons">
+          <li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+          <li><a href="#" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+          <li><a href="mailto:your.email@example.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+        </ul>
+        <ul class="copyright">
+          <li>&copy; 2025 Jack Tracy</li>
+          <li>Design adapted from <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+      </footer>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="{{ url_for('static', filename='assets/js/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/jquery.scrollex.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/jquery.scrolly.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/browser.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/breakpoints.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/util.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/main.js') }}"></script>
+
+  </body>
+</html>
